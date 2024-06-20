@@ -29,7 +29,9 @@
 
 (defpackage #:cl-opengl
   (:use #:cl #:cffi)
-  (:nicknames #:opengl #:gl)
+  (:nicknames
+  ; #:opengl
+  #:gl)
   (:import-from #:alexandria
                 #:once-only
                 #:symbolicate
